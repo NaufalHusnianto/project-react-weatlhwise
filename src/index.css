@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+.font-style-dashboard {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 2.8rem;
+}
+
 @keyframes idleUpAndDown {
   0% {
     transform: translateY(0);
