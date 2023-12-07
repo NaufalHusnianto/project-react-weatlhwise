@@ -18,7 +18,7 @@ function Dashboard() {
     }
 
     return (
-        <div className="App p-4" style={bodyBg}>
+        <div className="App p-4 h-100" style={bodyBg}>
             <header className="d-flex justify-content-sm-between align-items-center h-15 pt-2">
                 <h2 className="pl-5 text-white font-weight-normal text-sm-left">WealthWise <span style={purpleColor}>Finance</span></h2>
                 <nav className="navbar navbar-expand-lg bg-body-tertiary d-flex ">
