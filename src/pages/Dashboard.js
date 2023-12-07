@@ -18,8 +18,8 @@ function Dashboard() {
     }
 
     return (
-        <div className="App p-4 h-100" style={bodyBg}>
-            <header className="d-flex justify-content-sm-between align-items-center h-15 pt-2">
+        <div className="App p-4" style={bodyBg}>
+            <header className="d-flex justify-content-between align-items-center pt-2">
                 <h2 className="pl-5 text-white font-weight-normal text-sm-left">WealthWise <span style={purpleColor}>Finance</span></h2>
                 <nav className="navbar navbar-expand-lg bg-body-tertiary d-flex ">
                     <ul className="navbar-nav">
@@ -32,15 +32,15 @@ function Dashboard() {
                     <button type="button" className="btn btn-secondary btn-sm rounded-pill font-weight-bold text-dark pl-4 pr-4 ml-4" style={purpleBgColor}>Sign In</button>
                 </nav>
             </header>
-            <main className="d-flex h-85">
-                <div className="container w-50 p-4 ml-5 mt-5">
+            <main className="d-flex flex-wrap-reverse justify-content-center align-items-center h-85">
+                <div className="container w-100 w-lg-50 p-4 mt-5">
                     <h1 className="card-title text-white font-style-dashboard">Inovasi <span className="font-weight-bold" style={purpleColor}>Finansial</span></h1>
                     <h1 className="card-title text-white font-style-dashboard">Untuk Masa Depan</h1>
                     <h1 className="card-title text-white font-style-dashboard">Yang Lebih <span className="font-weight-bold" style={purpleColor}>Cerah</span></h1>
                     <p className="text-white text-sm-left mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis reprehenderit tenetur cupiditate magni suscipit in eaque assumenda soluta repellendus voluptate. Aspernatur corporis quas totam pariatur, sint quo tenetur excepturi consequatur.</p>
                     <button type="button" className="btn btn-secondary btn-sm rounded-pill font-weight-bold text-dark p-2 mt-2" style={purpleBgColor}>Bergabung Sekarang!</button>
                 </div>
-                <div className="container w-50">
+                <div className="container w-100 w-lg-50 text-center mb-5">
                     <img src="/image/ball.png" className="position-absolute rotate-animation" style={{ width: '250px', height: 'auto', right: '270px', top: '130px'}}/>
                     <img src="/image/u.png" className="position-absolute floating-animation" style={{ width: '500px', height: 'auto', bottom: '100px' }}/>
                 </div>
