@@ -40,9 +40,9 @@ function Dashboard() {
                     <p className="text-white text-sm-left mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis reprehenderit tenetur cupiditate magni suscipit in eaque assumenda soluta repellendus voluptate. Aspernatur corporis quas totam pariatur, sint quo tenetur excepturi consequatur.</p>
                     <button type="button" className="btn btn-secondary btn-sm rounded-pill font-weight-bold text-dark p-2 mt-2" style={purpleBgColor}>Bergabung Sekarang!</button>
                 </div>
-                <div className="container w-100 col-lg-6 text-center mb-5">
-                    <img src="/image/ball.png" className="position-absolute rotate-animation" style={{ width: '250px', height: 'auto', right: '270px', top: '130px'}}/>
-                    <img src="/image/u.png" className="position-absolute floating-animation" style={{ width: '500px', height: 'auto', bottom: '100px' }}/>
+                <div className="container w-100 col-lg-6 text-center mb-5 position-relative">
+                    <img src="/image/ball.png" className="rotate-animation img-fluid" style={{ maxWidth: '250px', top: '130px', right: '50%' }}/>
+                    <img src="/image/u.png" className="floating-animation img-fluid" style={{ maxWidth: '500px', bottom: '100px', left: '50%', transform: 'translateX(-50%)' }}/>
                 </div>
             </main>
         </div>
