@@ -42,7 +42,7 @@ function Dashboard() {
                 </div>
                 <div className="container w-100 col-lg-6 text-center mb-5 position-relative">
                     <img src="/image/ball.png" className="rotate-animation img-fluid" style={{ maxWidth: '250px', top: '130px', right: '50%' }}/>
-                    <img src="/image/u.png" className="floating-animation img-fluid" style={{ maxWidth: '500px', bottom: '100px', left: '50%', transform: 'translateX(-50%)' }}/>
+                    <img src="/image/u.png" className="floating-animation img-fluid" style={{ maxWidth: '500px', left: '40%', transform: 'translateX(-50%)' }}/>
                 </div>
             </main>
         </div>
