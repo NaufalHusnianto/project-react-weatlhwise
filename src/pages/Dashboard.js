@@ -42,7 +42,7 @@ function Dashboard() {
                 </div>
                 <div className="container w-50">
                     <img src="/image/ball.png" className="position-absolute rotate-animation" style={{ width: '250px', height: 'auto', right: '270px', top: '130px'}}/>
-                    <img src="/image/u.png" className="position-absolute floating-animation" style={{ width: '500px', height: 'auto', bottom: '50px' }}/>
+                    <img src="/image/u.png" className="position-absolute floating-animation" style={{ width: '500px', height: 'auto', bottom: '100px' }}/>
                 </div>
             </main>
         </div>
