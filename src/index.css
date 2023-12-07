@@ -50,3 +50,31 @@ code {
 .rotate-animation {
   animation: rotateMotion 12s ease-in-out infinite;
 }
+
+/* Dalam file CSS Anda atau dalam tag <style> jika menggunakan styled-components */
+
+@media (max-width: 991px) {
+  /* Tata letak untuk layar berukuran menengah */
+  .container.col-lg-6 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Tata letak untuk layar kecil (ponsel) */
+  .container.col-lg-6 {
+    flex-basis: unset;
+    max-width: unset;
+  }
+
+  .container.w-100 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Atur tata letak gambar agar lebih responsif */
+  .rotate-animation {
+    max-width: 8rem;
+  }
+}
